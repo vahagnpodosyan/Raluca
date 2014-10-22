@@ -55,7 +55,6 @@ foreach($order as $o){
 }
 
 echo '<table style="width:500px;" border="1" cellspacing="0" cellpadding="5"><thead><tr>'.$thead.'</tr></thead><tbody>';
-
-$array = sortme_and_show($array,$order);
-
+sortme_and_show($array,$order);
+echo '</tbody></table>';
 ?>
